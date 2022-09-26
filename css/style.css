@@ -9,3 +9,50 @@
 --light-coral: #f08080;
 --light-sea-green: #20b2aa;
 --aquamarine: #7fffd4; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 920px;
+    margin: 0 auto;
+}
+
+.border{
+    border: 2px dashed black;
+}
+
+header{
+    background-color: #add8e6;
+    padding: 1rem 0;
+}
+
+header nav{
+    background-color: #daa520;
+    display: flex;
+}
+
+nav .logo, 
+nav .login{
+    flex-basis: 25%;
+}
+
+nav .link-list{
+    display: flex;
+    list-style: none;
+    flex-grow: 1;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+nav .logo,
+nav .login,
+nav .link-list{
+    padding: .5rem;
+}
+
+nav a{
+    text-decoration: none;
+}
