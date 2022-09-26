@@ -20,6 +20,12 @@
     margin: 0 auto;
 }
 
+.small-container{
+    background-color: #ee82ee;
+    margin: 0 4rem;
+    padding: 10rem 0;
+}
+
 .border{
     border: 2px dashed black;
 }
@@ -55,4 +61,12 @@ nav .link-list{
 
 nav a{
     text-decoration: none;
+}
+
+section{
+    padding: 2rem 0;
+}
+
+main section:first-of-type{
+    background-color: #00008b;
 }
