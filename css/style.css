@@ -1,7 +1,5 @@
 /* Colori */
-/* --light-coral: #f08080;
---light-sea-green: #20b2aa;
---aquamarine: #7fffd4; */
+/* --aquamarine: #7fffd4; #ffb6c1*/
 
 *{
     margin: 0;
@@ -20,8 +18,12 @@
     padding: 10rem 0;
 }
 
-.border{
+.border-black{
     border: 2px dashed black;
+}
+
+.border-white{
+    border: 2px dashed white;
 }
 
 header{
@@ -45,11 +47,16 @@ nav .link-list{
     flex-grow: 1;
     gap: 0.5rem;
     justify-content: center;
+    align-items: center;
+}
+
+nav .login{
+    display: flex;
+    justify-content: end;
 }
 
 nav .logo,
-nav .login,
-nav .link-list{
+nav a{
     padding: .5rem;
 }
 
@@ -65,7 +72,7 @@ main section:first-of-type{
     background-color: #00008b;
 }
 
-main section .container.flex{
+.flex{
     display: flex;
 }
 
@@ -88,4 +95,40 @@ section.grey{
 main section:last-child .container{
     padding: 12rem 0;
     background-color: #228b22;
+}
+
+footer{
+    background-color: #23272a;
+}
+
+footer .container{
+    padding: 1rem 0;
+}
+
+footer .container .coral{
+    padding: 10rem 0;
+    flex-grow: 1;
+    background-color: #f08080;
+}
+
+footer .container .sea{
+    padding: 10rem 0;
+    flex-basis: 15%;
+    background-color: #20b2aa;
+}
+
+hr{
+    border-color: white;
+}
+
+footer .container:last-child{
+    background-color: #7fffd4;
+    margin-top: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container:last-child div{
+    background-color: #ffb6c1;
+    padding: .2rem;
 }
