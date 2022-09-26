@@ -1,14 +1,8 @@
 /* Colori */
-/* --light-blue: #add8e6;
---goldenrod: #daa520;
---navy-blue: #00008b;
---violet-web: #ee82ee;
---dodger-blue: #1e90ff;
---pink: #ffc0cb;
---forest-green-web: #228b22;
---light-coral: #f08080;
+/* --light-coral: #f08080;
 --light-sea-green: #20b2aa;
 --aquamarine: #7fffd4; */
+
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +16,7 @@
 
 .small-container{
     background-color: #ee82ee;
-    margin: 0 4rem;
+    margin: 0 6rem;
     padding: 10rem 0;
 }
 
@@ -69,4 +63,29 @@ section{
 
 main section:first-of-type{
     background-color: #00008b;
+}
+
+main section .container.flex{
+    display: flex;
+}
+
+.container.flex .blue{
+    background-color: #1e90ff;
+    padding: 10rem 0;
+    flex-grow: 1;
+}
+
+.container.flex .pink{
+    background-color: #ffc0cb;
+    padding: 10rem 0;
+    flex-basis: 40%;
+}
+
+section.grey{
+    background-color: #d3d3d3;
+}
+
+main section:last-child .container{
+    padding: 12rem 0;
+    background-color: #228b22;
 }
